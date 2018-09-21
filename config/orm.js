@@ -34,7 +34,7 @@ var orm = {
         "into " +
         tableInput +
         " " +
-        "(burger_name, devoured) values ('" +
+        "(burger_name, devoured, createdAt) values ('" +
         val +
         "',false);",
       function(err, result) {
