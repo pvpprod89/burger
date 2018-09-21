@@ -8,6 +8,7 @@ CREATE TABLE burgers
 	burger_name varchar
     (222) NOT NULL,
 	devoured boolean NOT NULL default false,
+    createdAt timestamp not null,
 	PRIMARY KEY
     (id)
 );

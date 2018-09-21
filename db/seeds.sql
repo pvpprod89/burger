@@ -1,14 +1,14 @@
 INSERT INTO burgers
-    (burger_name, devoured)
+    (burger_name, devoured, createdAt)
 VALUES
-    ("Vegi Burger", false);
+    ("Vegi Burger", false, current_timestamp());
 
 INSERT INTO burgers
-    (burger_name, devoured)
+    (burger_name, devoured, createdAt)
 VALUES
-    ('Cheese Burger', false);
+    ("Cheese Burger", false, current_timestamp());
 
 INSERT INTO burgers
-    (burger_name, devoured)
+    (burger_name, devoured, createdAt)
 VALUES
-    ('Pizza Burger', false);
+    ("Pizza Burger", false, current_timestamp());
